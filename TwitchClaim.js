@@ -9,7 +9,8 @@ setTimeout(function () {
   
   if(claimButton.length == 1) {
     console.log("Im a claimooooooor");
-    claimButton[0].click();
+    res = claimButton[0].click();
+    console.log(res);
   }
   else {
   	console.log("not cooked");
